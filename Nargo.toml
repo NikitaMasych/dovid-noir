@@ -1,0 +1,8 @@
+[package]
+name = "zkmessage"
+type = "bin"
+authors = ["Distributed Lab"]
+compiler_version = "0.10.3"
+
+[dependencies]
+ecrecover = { tag = "v0.10.0", git = "https://github.com/colinnielsen/ecrecover-noir" }
